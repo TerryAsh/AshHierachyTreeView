@@ -6,9 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AshHierachyTreeBuilder.h"
+
+typedef void (^AshHierachyTreeBuilding_t)(AshHierachyTreeBuilder *bulder);
 
 @interface AshHierachyTreeView : UIView
 
-@property(nonatomic ,readonly) NSArray<AshHierachyTreeView *> *
+- (instancetype)initWithBuilder:(AshHierachyTreeBuilding_t)building;
 
 @end
