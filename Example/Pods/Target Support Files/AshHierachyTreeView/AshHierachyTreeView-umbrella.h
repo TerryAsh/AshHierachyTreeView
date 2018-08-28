@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "AshHierachyData.h"
+#import "AshHierachyTreeBuilder.h"
 #import "AshHierachyTreeView.h"
 
 FOUNDATION_EXPORT double AshHierachyTreeViewVersionNumber;

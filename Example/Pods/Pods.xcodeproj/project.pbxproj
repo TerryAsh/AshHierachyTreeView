@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07649D28EBACADE67393B8AEB85DE78B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E71CB87A83F15595FC06CBA6F33B8290 /* ReplaceMe.m */; };
-		1B904751A6A3BC1306F6C68028B55FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3897F8D72ECF0BF62394744C623A39E2 /* AshHierachyTreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D558F69506CE5E80A0C41E7312FE273C /* AshHierachyTreeView-dummy.m */; };
+		0A949EF42DBFE96CEC4BAB03EDB37882 /* AshHierachyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C6843CD35B015868293642BD5893B981 /* AshHierachyData.m */; };
+		2585312E04E6B0C8BA3C46D2E5D45D27 /* AshHierachyTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A14B78F8299A7A461B6E2D12862FDD /* AshHierachyTreeView.m */; };
 		3E4D9AC0D2B9D18AA7A8B911190BC1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		50C67F24E703A937E03CDE384B0B90FC /* Pods-AshHierachyTreeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E30F28ECD119C03064B2F9658B7D4801 /* Pods-AshHierachyTreeView_Tests-dummy.m */; };
-		61AAA53CFEF45946AC938536F75E2A5F /* AshHierachyTreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5B88A211CBFF7FE584AA3D5B88BD7F /* AshHierachyTreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662F046DDDE133BE2835E6FB906F0C8F /* AshHierachyTreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB61CBB84C39E5F5B667EDFA5B4C7FA /* AshHierachyTreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D813A0E888B52D70C28618DCAEE4771 /* Pods-AshHierachyTreeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A071BD7AA79C1D8E22354255DB14E4 /* Pods-AshHierachyTreeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		828DB349F71F36FB3E1659C59FF49833 /* Pods-AshHierachyTreeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 811E5B38548F377D35B5D1C7EE7A36F9 /* Pods-AshHierachyTreeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86B2165BE5904749991C1CDF887BD696 /* Pods-AshHierachyTreeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE269005FFA72BB9E984C7CDE9A88F79 /* Pods-AshHierachyTreeView_Example-dummy.m */; };
 		95A9AFCFF0B77D65B53A46024121D460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DAE9D96D8F31C3AC7964460282A28152 /* AshHierachyTreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6397DE856B69AE998FF4967975C3274 /* AshHierachyTreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3481F4C93A868D2D2CBE7B4F1AC8826 /* AshHierachyTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4C576524E1D6BE11F6B0AF0D011CC /* AshHierachyTreeView.m */; };
+		9BB96D6D7D07F31399EDC8AA01D13ADD /* AshHierachyData.h in Headers */ = {isa = PBXBuildFile; fileRef = FABAB998E6865F68517E2437696BC32D /* AshHierachyData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C5A1298F4FCC193C8463E534C30C5B2 /* AshHierachyTreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A2BE948518DFF366A68F9F478A3674 /* AshHierachyTreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A210CBD013BA0C5A20651F5319189CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B7EE706C458A4069F537E9161D5D7026 /* AshHierachyTreeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC00D069BA9FBA95796EFC9A7B436B4 /* AshHierachyTreeBuilder.m */; };
+		D48C07E6FA65A6C2C643FDE4BD90E659 /* AshHierachyTreeBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B1913B02DAD26F45156D9FAA4D4BE8 /* AshHierachyTreeBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8165DCC9F4AFD1961F9483E4433F7BA /* AshHierachyTreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE263DD791ABE60A5B9A386A5E0A2C1F /* AshHierachyTreeView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +29,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 521439F9497544E7E86D6E88E29D1A0C;
+			remoteGlobalIDString = 37199214E0658AEACF50A2E4F65A58F1;
 			remoteInfo = AshHierachyTreeView;
 		};
 		D20CC99AF6821844502F1931DF3B6C28 /* PBXContainerItemProxy */ = {
@@ -40,42 +43,45 @@
 
 /* Begin PBXFileReference section */
 		098E46390F02B84425C1C1A0AFBC7E8D /* Pods_AshHierachyTreeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AshHierachyTreeView_Tests.framework; path = "Pods-AshHierachyTreeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126ECD045019B4CC15D6D2A5E460AB73 /* AshHierachyTreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AshHierachyTreeView-prefix.pch"; sourceTree = "<group>"; };
 		165ABBFDFBDC03111CE88360AC9646A6 /* Pods_AshHierachyTreeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AshHierachyTreeView_Example.framework; path = "Pods-AshHierachyTreeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19C9FC99B20344390F4C06266E737567 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1C978638783E22A1533857C50496C60A /* Pods-AshHierachyTreeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AshHierachyTreeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1D4C82C4A7C0F8EA182A1F0624F58212 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1F8D55DE9194C036F63EF6B0DE90FC8C /* AshHierachyTreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AshHierachyTreeView.xcconfig; sourceTree = "<group>"; };
 		24B35D74B69907AA85DF941BCEEF5640 /* Pods-AshHierachyTreeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AshHierachyTreeView_Tests.modulemap"; sourceTree = "<group>"; };
-		3FF537B71309E6402AB626A1BEC77BA1 /* AshHierachyTreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AshHierachyTreeView.modulemap; sourceTree = "<group>"; };
+		27A14B78F8299A7A461B6E2D12862FDD /* AshHierachyTreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AshHierachyTreeView.m; path = AshHierachyTreeView/Classes/AshHierachyTreeView.m; sourceTree = "<group>"; };
+		43B1913B02DAD26F45156D9FAA4D4BE8 /* AshHierachyTreeBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AshHierachyTreeBuilder.h; path = AshHierachyTreeView/Classes/AshHierachyTreeBuilder.h; sourceTree = "<group>"; };
 		4C88D17935EFB126251524DEF20CAF91 /* Pods-AshHierachyTreeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AshHierachyTreeView_Example.modulemap"; sourceTree = "<group>"; };
 		509E81D59F7A8DD6CEE4E6FD4B0F670D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52176A2F305498C9C90014BED6B86882 /* Pods-AshHierachyTreeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AshHierachyTreeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		52D25B6AD101C291A8C010111076FB16 /* AshHierachyTreeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AshHierachyTreeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BC00D069BA9FBA95796EFC9A7B436B4 /* AshHierachyTreeBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AshHierachyTreeBuilder.m; path = AshHierachyTreeView/Classes/AshHierachyTreeBuilder.m; sourceTree = "<group>"; };
+		5DE8BCCDF2F7E9279AFA889CF44AB9B6 /* AshHierachyTreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AshHierachyTreeView.modulemap; sourceTree = "<group>"; };
+		6AA242289BC856A7ECDC5DC54D94F475 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F7040229112AB7C4C39C0DA25B21857 /* Pods-AshHierachyTreeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AshHierachyTreeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		718EC3F6FEF3F8FEE8C8D71F6F220BF5 /* Pods-AshHierachyTreeView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AshHierachyTreeView_Example-resources.sh"; sourceTree = "<group>"; };
 		79159903D086B5583D6642AA0E42E21A /* Pods-AshHierachyTreeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AshHierachyTreeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		791B7D6BAC20D7819E8F4EFBE54A1C95 /* AshHierachyTreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AshHierachyTreeView-prefix.pch"; sourceTree = "<group>"; };
 		7B1C0A2FE5A84DDE0704147361E2C22C /* Pods-AshHierachyTreeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AshHierachyTreeView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		80C60195BC41752B711AA20FAA1B9CE2 /* Pods-AshHierachyTreeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AshHierachyTreeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		80EA88C69A470166D71CE3E7217A78AF /* AshHierachyTreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AshHierachyTreeView.xcconfig; sourceTree = "<group>"; };
 		811E5B38548F377D35B5D1C7EE7A36F9 /* Pods-AshHierachyTreeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AshHierachyTreeView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		86A2BE948518DFF366A68F9F478A3674 /* AshHierachyTreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AshHierachyTreeView-umbrella.h"; sourceTree = "<group>"; };
+		8AB61CBB84C39E5F5B667EDFA5B4C7FA /* AshHierachyTreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AshHierachyTreeView.h; path = AshHierachyTreeView/Classes/AshHierachyTreeView.h; sourceTree = "<group>"; };
 		8E7B568020D86C9D48BE299EC45341E3 /* Pods-AshHierachyTreeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AshHierachyTreeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9075B8EF24B0A29D79BC0E41C5B09069 /* Pods-AshHierachyTreeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AshHierachyTreeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C4ACC6643F488AE769A3A2CCD583F4E /* Pods-AshHierachyTreeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AshHierachyTreeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9DE09C9E2646FF92072288B1A5E58103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE269005FFA72BB9E984C7CDE9A88F79 /* Pods-AshHierachyTreeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AshHierachyTreeView_Example-dummy.m"; sourceTree = "<group>"; };
-		BC1474FC1546A975B92CBE326B84B516 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA3F7BE8C458336F240CFB29155C0B9 /* AshHierachyTreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AshHierachyTreeView.framework; path = AshHierachyTreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A071BD7AA79C1D8E22354255DB14E4 /* Pods-AshHierachyTreeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AshHierachyTreeView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C1F7DA22F9D47935174CACA0DEDB4201 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C6843CD35B015868293642BD5893B981 /* AshHierachyData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AshHierachyData.m; path = AshHierachyTreeView/Classes/AshHierachyData.m; sourceTree = "<group>"; };
+		CE263DD791ABE60A5B9A386A5E0A2C1F /* AshHierachyTreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AshHierachyTreeView-dummy.m"; sourceTree = "<group>"; };
 		D0963D838F8647DEEEAF19E00FBAA4FA /* Pods-AshHierachyTreeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AshHierachyTreeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D558F69506CE5E80A0C41E7312FE273C /* AshHierachyTreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AshHierachyTreeView-dummy.m"; sourceTree = "<group>"; };
+		DD339BEE7CEE14D6F9117968C280ECE7 /* AshHierachyTreeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AshHierachyTreeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E23200A5D76013A6472B2A41DA55D45E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E30F28ECD119C03064B2F9658B7D4801 /* Pods-AshHierachyTreeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AshHierachyTreeView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E71CB87A83F15595FC06CBA6F33B8290 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AshHierachyTreeView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		EC36D6DF8AAF694CD0B3188096E2E114 /* Pods-AshHierachyTreeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AshHierachyTreeView_Tests-resources.sh"; sourceTree = "<group>"; };
-		EE5B88A211CBFF7FE584AA3D5B88BD7F /* AshHierachyTreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AshHierachyTreeView.h; path = AshHierachyTreeView/Classes/AshHierachyTreeView.h; sourceTree = "<group>"; };
-		F6397DE856B69AE998FF4967975C3274 /* AshHierachyTreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AshHierachyTreeView-umbrella.h"; sourceTree = "<group>"; };
-		FBC4C576524E1D6BE11F6B0AF0D011CC /* AshHierachyTreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AshHierachyTreeView.m; path = AshHierachyTreeView/Classes/AshHierachyTreeView.m; sourceTree = "<group>"; };
+		FABAB998E6865F68517E2437696BC32D /* AshHierachyData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AshHierachyData.h; path = AshHierachyTreeView/Classes/AshHierachyData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +93,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE0F04DD8A81E78F3ED057CEEAE27C7 /* Frameworks */ = {
+		7367BBAD23A358FB93738046139B8CAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B904751A6A3BC1306F6C68028B55FA5 /* Foundation.framework in Frameworks */,
+				A210CBD013BA0C5A20651F5319189CEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,27 +119,6 @@
 				53B55679C63BAEFB5075A5AF4016D142 /* Pods-AshHierachyTreeView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		46D0C31406C52B5E3A6E12F53DC540F5 /* AshHierachyTreeView */ = {
-			isa = PBXGroup;
-			children = (
-				EE5B88A211CBFF7FE584AA3D5B88BD7F /* AshHierachyTreeView.h */,
-				FBC4C576524E1D6BE11F6B0AF0D011CC /* AshHierachyTreeView.m */,
-				E71CB87A83F15595FC06CBA6F33B8290 /* ReplaceMe.m */,
-				D14B525B7B7888B485FDCAC0D8A4B303 /* Pod */,
-				EE6C7AF8722D1496ECC987384849E342 /* Support Files */,
-			);
-			name = AshHierachyTreeView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		480959AB21B2138ACBA21F6843D22F34 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				46D0C31406C52B5E3A6E12F53DC540F5 /* AshHierachyTreeView */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		53B55679C63BAEFB5075A5AF4016D142 /* Pods-AshHierachyTreeView_Tests */ = {
@@ -166,11 +151,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				480959AB21B2138ACBA21F6843D22F34 /* Development Pods */,
+				8C4395F5260E8E5114112E1C03E43A15 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A366A524301E8656E798072E13319420 /* Products */,
 				2859547A0CFCAA5B50A560CCA66926A7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8C4395F5260E8E5114112E1C03E43A15 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A765C02888D75643BB73414109C0D96F /* AshHierachyTreeView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A2404DE21AA9DAB20719EE37207CB6BB /* Pods-AshHierachyTreeView_Example */ = {
@@ -201,6 +194,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A765C02888D75643BB73414109C0D96F /* AshHierachyTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				FABAB998E6865F68517E2437696BC32D /* AshHierachyData.h */,
+				C6843CD35B015868293642BD5893B981 /* AshHierachyData.m */,
+				43B1913B02DAD26F45156D9FAA4D4BE8 /* AshHierachyTreeBuilder.h */,
+				5BC00D069BA9FBA95796EFC9A7B436B4 /* AshHierachyTreeBuilder.m */,
+				8AB61CBB84C39E5F5B667EDFA5B4C7FA /* AshHierachyTreeView.h */,
+				27A14B78F8299A7A461B6E2D12862FDD /* AshHierachyTreeView.m */,
+				C18F5B4C3A96734CBA04747629E2BC11 /* Pod */,
+				E92DF380417E180DECD07FA14A5305B1 /* Support Files */,
+			);
+			name = AshHierachyTreeView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,25 +218,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D14B525B7B7888B485FDCAC0D8A4B303 /* Pod */ = {
+		C18F5B4C3A96734CBA04747629E2BC11 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				52D25B6AD101C291A8C010111076FB16 /* AshHierachyTreeView.podspec */,
-				1D4C82C4A7C0F8EA182A1F0624F58212 /* LICENSE */,
-				19C9FC99B20344390F4C06266E737567 /* README.md */,
+				DD339BEE7CEE14D6F9117968C280ECE7 /* AshHierachyTreeView.podspec */,
+				C1F7DA22F9D47935174CACA0DEDB4201 /* LICENSE */,
+				E23200A5D76013A6472B2A41DA55D45E /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		EE6C7AF8722D1496ECC987384849E342 /* Support Files */ = {
+		E92DF380417E180DECD07FA14A5305B1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FF537B71309E6402AB626A1BEC77BA1 /* AshHierachyTreeView.modulemap */,
-				1F8D55DE9194C036F63EF6B0DE90FC8C /* AshHierachyTreeView.xcconfig */,
-				D558F69506CE5E80A0C41E7312FE273C /* AshHierachyTreeView-dummy.m */,
-				791B7D6BAC20D7819E8F4EFBE54A1C95 /* AshHierachyTreeView-prefix.pch */,
-				F6397DE856B69AE998FF4967975C3274 /* AshHierachyTreeView-umbrella.h */,
-				BC1474FC1546A975B92CBE326B84B516 /* Info.plist */,
+				5DE8BCCDF2F7E9279AFA889CF44AB9B6 /* AshHierachyTreeView.modulemap */,
+				80EA88C69A470166D71CE3E7217A78AF /* AshHierachyTreeView.xcconfig */,
+				CE263DD791ABE60A5B9A386A5E0A2C1F /* AshHierachyTreeView-dummy.m */,
+				126ECD045019B4CC15D6D2A5E460AB73 /* AshHierachyTreeView-prefix.pch */,
+				86A2BE948518DFF366A68F9F478A3674 /* AshHierachyTreeView-umbrella.h */,
+				6AA242289BC856A7ECDC5DC54D94F475 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AshHierachyTreeView";
@@ -236,6 +245,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		12C87A85E629706EF97723DD5E5DF5AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB96D6D7D07F31399EDC8AA01D13ADD /* AshHierachyData.h in Headers */,
+				D48C07E6FA65A6C2C643FDE4BD90E659 /* AshHierachyTreeBuilder.h in Headers */,
+				9C5A1298F4FCC193C8463E534C30C5B2 /* AshHierachyTreeView-umbrella.h in Headers */,
+				662F046DDDE133BE2835E6FB906F0C8F /* AshHierachyTreeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B33DEE916F5B5B28AAEE1998C9682BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,25 +272,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE78806C3B10E35BB3CE6AB94A2B8AF2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAE9D96D8F31C3AC7964460282A28152 /* AshHierachyTreeView-umbrella.h in Headers */,
-				61AAA53CFEF45946AC938536F75E2A5F /* AshHierachyTreeView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		521439F9497544E7E86D6E88E29D1A0C /* AshHierachyTreeView */ = {
+		37199214E0658AEACF50A2E4F65A58F1 /* AshHierachyTreeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6930BA3611980C8EE7126F770384E8E3 /* Build configuration list for PBXNativeTarget "AshHierachyTreeView" */;
+			buildConfigurationList = 75DC4C57D8D2D9348360D56990F7EC41 /* Build configuration list for PBXNativeTarget "AshHierachyTreeView" */;
 			buildPhases = (
-				951BEC278066D5B1867FCBAAE7DD7118 /* Sources */,
-				6EE0F04DD8A81E78F3ED057CEEAE27C7 /* Frameworks */,
-				FE78806C3B10E35BB3CE6AB94A2B8AF2 /* Headers */,
+				97F4DC682AF2EF99100981A1DCA011C1 /* Sources */,
+				7367BBAD23A358FB93738046139B8CAF /* Frameworks */,
+				12C87A85E629706EF97723DD5E5DF5AA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -338,7 +349,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				521439F9497544E7E86D6E88E29D1A0C /* AshHierachyTreeView */,
+				37199214E0658AEACF50A2E4F65A58F1 /* AshHierachyTreeView */,
 				546149FCB664668280C0CB6DFEBFAF77 /* Pods-AshHierachyTreeView_Example */,
 				A29CBA8EBDFF1993E65F3FEC15E2E776 /* Pods-AshHierachyTreeView_Tests */,
 			);
@@ -354,13 +365,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		951BEC278066D5B1867FCBAAE7DD7118 /* Sources */ = {
+		97F4DC682AF2EF99100981A1DCA011C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3897F8D72ECF0BF62394744C623A39E2 /* AshHierachyTreeView-dummy.m in Sources */,
-				F3481F4C93A868D2D2CBE7B4F1AC8826 /* AshHierachyTreeView.m in Sources */,
-				07649D28EBACADE67393B8AEB85DE78B /* ReplaceMe.m in Sources */,
+				0A949EF42DBFE96CEC4BAB03EDB37882 /* AshHierachyData.m in Sources */,
+				B7EE706C458A4069F537E9161D5D7026 /* AshHierachyTreeBuilder.m in Sources */,
+				E8165DCC9F4AFD1961F9483E4433F7BA /* AshHierachyTreeView-dummy.m in Sources */,
+				2585312E04E6B0C8BA3C46D2E5D45D27 /* AshHierachyTreeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +390,7 @@
 		A4FCF569B254187E6B6559AB3612A121 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AshHierachyTreeView;
-			target = 521439F9497544E7E86D6E88E29D1A0C /* AshHierachyTreeView */;
+			target = 37199214E0658AEACF50A2E4F65A58F1 /* AshHierachyTreeView */;
 			targetProxy = 869E8AC477800F34D7D742C9A9CC7111 /* PBXContainerItemProxy */;
 		};
 		D59850F4A42AE1732BEFF39C230091FA /* PBXTargetDependency */ = {
@@ -417,67 +429,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		38D4D7C98A3AABCA0963E55567097880 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F8D55DE9194C036F63EF6B0DE90FC8C /* AshHierachyTreeView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AshHierachyTreeView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView.modulemap";
-				PRODUCT_MODULE_NAME = AshHierachyTreeView;
-				PRODUCT_NAME = AshHierachyTreeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3EF8B3FC60BF79687F27A1A079B477F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F8D55DE9194C036F63EF6B0DE90FC8C /* AshHierachyTreeView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AshHierachyTreeView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView.modulemap";
-				PRODUCT_MODULE_NAME = AshHierachyTreeView;
-				PRODUCT_NAME = AshHierachyTreeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -615,6 +566,37 @@
 			};
 			name = Debug;
 		};
+		9615DF8AB580D555533288F2B1A551D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EA88C69A470166D71CE3E7217A78AF /* AshHierachyTreeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AshHierachyTreeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView.modulemap";
+				PRODUCT_MODULE_NAME = AshHierachyTreeView;
+				PRODUCT_NAME = AshHierachyTreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -673,6 +655,36 @@
 			};
 			name = Release;
 		};
+		CBFB3B5BBDB45CB24C20E29E75A86F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80EA88C69A470166D71CE3E7217A78AF /* AshHierachyTreeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AshHierachyTreeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AshHierachyTreeView/AshHierachyTreeView.modulemap";
+				PRODUCT_MODULE_NAME = AshHierachyTreeView;
+				PRODUCT_NAME = AshHierachyTreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D8C7AEF1AA438EE39077999569F8E00B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52176A2F305498C9C90014BED6B86882 /* Pods-AshHierachyTreeView_Tests.debug.xcconfig */;
@@ -727,11 +739,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6930BA3611980C8EE7126F770384E8E3 /* Build configuration list for PBXNativeTarget "AshHierachyTreeView" */ = {
+		75DC4C57D8D2D9348360D56990F7EC41 /* Build configuration list for PBXNativeTarget "AshHierachyTreeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EF8B3FC60BF79687F27A1A079B477F4 /* Debug */,
-				38D4D7C98A3AABCA0963E55567097880 /* Release */,
+				CBFB3B5BBDB45CB24C20E29E75A86F5B /* Debug */,
+				9615DF8AB580D555533288F2B1A551D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
