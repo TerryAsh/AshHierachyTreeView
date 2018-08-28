@@ -1,0 +1,22 @@
+{
+  "name": "AshHierachyTreeView",
+  "version": "0.1.0",
+  "summary": "A short description of AshHierachyTreeView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ash/AshHierachyTreeView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ash": "terry_ash@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Ash/AshHierachyTreeView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AshHierachyTreeView/Classes/**/*"
+}

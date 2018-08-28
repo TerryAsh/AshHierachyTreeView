@@ -1,0 +1,16 @@
+PODS:
+  - AshHierachyTreeView (0.1.0)
+
+DEPENDENCIES:
+  - AshHierachyTreeView (from `../`)
+
+EXTERNAL SOURCES:
+  AshHierachyTreeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AshHierachyTreeView: c5d52d4ea8999fe430c19eb2a69d4423b1adfeac
+
+PODFILE CHECKSUM: 69ca39350d7ddc3820aede45d3b6fc1afe19bef4
+
+COCOAPODS: 1.5.3
