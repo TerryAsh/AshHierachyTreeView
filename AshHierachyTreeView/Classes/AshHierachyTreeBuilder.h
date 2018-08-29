@@ -14,6 +14,7 @@
 @property(nonatomic ,strong) UIColor *entryColor;
 @property(nonatomic ,strong) UIColor *entryHighlightedColor;
 @property(nonatomic ,assign) CGRect frame;
+@property(nonatomic ,assign) CGFloat rowHeight;
 
 @property(nonatomic ,assign) NSInteger depth;
 

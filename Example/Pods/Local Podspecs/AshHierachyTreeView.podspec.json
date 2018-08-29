@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AshHierachyTreeView/Classes/**/*"
+  "source_files": "AshHierachyTreeView/Classes/**/*",
+  "dependencies": {
+    "FrameAccessor": [
+
+    ]
+  }
 }

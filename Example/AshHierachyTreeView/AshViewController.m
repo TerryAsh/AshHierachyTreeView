@@ -7,17 +7,31 @@
 //
 
 #import "AshViewController.h"
+#import <AshHierachyTreeView/AshHierachyTreeView.h>
 
 @interface AshViewController ()
+
+@property(nonatomic ,strong) AshHierachyTreeView *treeView;
 
 @end
 
 @implementation AshViewController
 
+- (AshHierachyTreeView *)treeView{
+    if(nil == _treeView){
+        _treeView = [[AshHierachyTreeView alloc] initWithBuilder:^(AshHierachyTreeBuilder *bulder) {
+            bulder.frame = self.view.frame;
+            bulder.depth = 2;
+        }];
+    }
+    return _treeView;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:self.treeView];
 }
 
 - (void)didReceiveMemoryWarning

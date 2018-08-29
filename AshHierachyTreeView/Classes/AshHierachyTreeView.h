@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "AshHierachyTreeBuilder.h"
 
-typedef void (^AshHierachyTreeBuilding_t)(AshHierachyTreeBuilder *bulder);
+typedef void (^AshHierachyTreeBuilding_t)(AshHierachyTreeBuilder *builder);
 
 @interface AshHierachyTreeView : UIView
 

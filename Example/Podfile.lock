@@ -1,15 +1,22 @@
 PODS:
-  - AshHierachyTreeView (0.1.0)
+  - AshHierachyTreeView (0.1.0):
+    - FrameAccessor
+  - FrameAccessor (2.0)
 
 DEPENDENCIES:
   - AshHierachyTreeView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FrameAccessor
 
 EXTERNAL SOURCES:
   AshHierachyTreeView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AshHierachyTreeView: c5d52d4ea8999fe430c19eb2a69d4423b1adfeac
+  AshHierachyTreeView: 5f3ee1edd5e3de467e086760336bbe8200c968d6
+  FrameAccessor: 443a13e58e23a10ff22180da0897b28c3f6abf66
 
 PODFILE CHECKSUM: 69ca39350d7ddc3820aede45d3b6fc1afe19bef4
 

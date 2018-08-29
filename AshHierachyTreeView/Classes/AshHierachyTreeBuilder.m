@@ -16,7 +16,7 @@
         self.entryHighlightedColor = [UIColor orangeColor];
         self.frame = [UIScreen mainScreen].bounds;
         self.depth = 2;
-        
+        self.rowHeight = 30;
         
         AshHierachyData *data = [[AshHierachyData alloc] initWithEntries:@[@"0",@"1",@"2",@"3"]];
         [data addLeaf:[[AshHierachyData alloc] initWithEntries:@[@"00",@"01",@"02",@"03"]]];

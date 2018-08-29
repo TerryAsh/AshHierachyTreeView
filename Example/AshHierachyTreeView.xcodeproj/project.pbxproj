@@ -338,10 +338,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AshHierachyTreeView_Example/Pods-AshHierachyTreeView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AshHierachyTreeView/AshHierachyTreeView.framework",
+				"${BUILT_PRODUCTS_DIR}/FrameAccessor/FrameAccessor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AshHierachyTreeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FrameAccessor.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
