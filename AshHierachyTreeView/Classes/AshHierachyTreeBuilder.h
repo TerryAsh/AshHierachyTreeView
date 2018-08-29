@@ -18,6 +18,6 @@
 
 @property(nonatomic ,assign) NSInteger depth;
 
-@property(nonatomic ,strong ,nonnull) AshHierachyData *hierachyData;
+@property(nonatomic ,strong ,nonnull) AshHierachyData *rootData;
 
 @end

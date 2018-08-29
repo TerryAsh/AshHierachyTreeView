@@ -22,6 +22,12 @@
         _treeView = [[AshHierachyTreeView alloc] initWithBuilder:^(AshHierachyTreeBuilder *bulder) {
             bulder.frame = self.view.frame;
             bulder.depth = 2;
+            AshHierachyData *data = [[AshHierachyData alloc] initWithEntries:@[@"0",@"1",@"2",@"3"]];
+            [data addLeaf:[[AshHierachyData alloc] initWithEntries:@[@"00",@"01",@"02",@"03"]]];
+            [data addLeaf:[[AshHierachyData alloc] initWithEntries:@[@"10",@"11",@"12",@"13"]]];
+            [data addLeaf:[[AshHierachyData alloc] initWithEntries:@[@"20",@"21",@"22",@"23"]]];
+            [data addLeaf:[[AshHierachyData alloc] initWithEntries:@[@"30",@"31",@"32",@"33"]]];
+            bulder.rootData = data;
         }];
     }
     return _treeView;
