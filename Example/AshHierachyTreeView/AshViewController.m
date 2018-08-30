@@ -20,8 +20,9 @@
 - (AshHierachyTreeView *)treeView{
     if(nil == _treeView){
         _treeView = [[AshHierachyTreeView alloc] initWithBuilder:^(AshHierachyTreeBuilder *bulder) {
-            bulder.frame = self.view.frame;
+            bulder.frame = [UIScreen mainScreen].bounds;
             bulder.depth = 2;
+            
             AshHierachyData *data = [[AshHierachyData alloc] initWithEntries:@[@"0",@"1",@"2",@"3"]];
             [data addLeaf:[[AshHierachyData alloc] initWithEntries:@[@"00",@"01",@"02",@"03"]]];
             [data addLeaf:[[AshHierachyData alloc] initWithEntries:@[@"10",@"11",@"12",@"13"]]];

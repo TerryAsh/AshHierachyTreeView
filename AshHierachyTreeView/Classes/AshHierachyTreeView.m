@@ -79,7 +79,16 @@ typedef NSMutableDictionary<NSNumber *, NSMutableArray<NSIndexPath *> *> LevelAn
 }
 
 - (void)_reloadSubTablesFrom:(NSInteger)level{
-    
+    for (NSInteger i = level + 1; i < self.builder.depth; i++) {
+        NSMutableArray<NSIndexPath *> *selectedIndexPaths = self.selectedRowDatas[@(i)];
+        [selectedIndexPaths removeAllObjects];
+        [self.allTableViews[i] reloadData];
+        if(i == level +1){
+            self.allTableViews[i].left = self.width * .5;
+        } else {
+            self.allTableViews[i].left = self.width;
+        }
+    }
 }
 
 #pragma mark -delegate
